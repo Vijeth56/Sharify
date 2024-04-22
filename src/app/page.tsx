@@ -110,7 +110,7 @@ export default function Home() {
             Redeem Your Points
           </h1>
           <p className="max-w-[600px] text-zinc-200 md:text-xl dark:text-zinc-100 mx-auto">
-            As your points stack up, it's time to reap the rewards! Exchange your points for exciting benefits offered by the creators themselves, such as:
+            As your points stack up, it&apos;s time to reap the rewards! Exchange your points for exciting benefits offered by the creators themselves, such as:
           </p>
         </div>
         <div className="flex flex-col items-center text-zinc-200 space-y-2 border-2 max-w-[400px] border-gray-400 p-4 rounded-2xl mx-auto">
@@ -149,9 +149,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
           Get in touch with us!
           </h1>
-          <p className="max-w-[600px] text-zinc-200 md:text-xl dark:text-zinc-100 mx-auto">
-            As your points stack up, it's time to reap the rewards! Exchange your points for exciting benefits offered by the creators themselves, such as:
-          </p>
+    
         </div>
         
 

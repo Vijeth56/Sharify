@@ -73,7 +73,7 @@ export default function Home() {
     <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-2xl">
       <h2 className="text-xl font-bold text-white">Share</h2>
       <p className="text-zinc-200 dark:text-zinc-100">
-        Once you've subscribed, you'll receive a unique URL for each video uploaded by the creator. Share these URLs with your friends, family, and followers across social media platforms.
+        Once you&apos;ve subscribed, you&apos;ll receive a unique URL for each video uploaded by the creator. Share these URLs with your friends, family, and followers across social media platforms.
       </p>
     </div>
     <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-2xl">

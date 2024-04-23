@@ -96,7 +96,7 @@ export default function Home() {
 
       {/* Redeem Your Points */}
 
-      <section className="w-full py-8 md:py-24 lg:py-32 xl:py-48 bg-black bg-opacity-50 bg-pattern">
+      <section className="w-full px-4 pt-32 py-8 md:py-24 lg:py-32 xl:py-48 bg-black bg-opacity-50 bg-pattern">
   <div className="container px-4 md:px-6">
     <div className="grid gap-6 lg:grid-cols-1 lg:gap-12 xl:grid-cols-2 items-center">
       <img
@@ -141,7 +141,7 @@ export default function Home() {
 
 
       <div className='container md:px-6'>
-<section className="w-full py-8 md:py-24 lg:py-32 xl:py-48 bg-black bg-opacity-50 bg-pattern">
+<section className="w-full py-8 md:py-24 lg:py-1 xl:py-1 bg-black bg-opacity-50 bg-pattern">
   <div className="container px-4 md:px-6">
     <div className="grid gap-6 lg:grid-cols-1 lg:gap-12 xl:grid-cols-2 items-center">
       <div className="flex flex-col justify-center space-y-4 text-center">

@@ -7,6 +7,7 @@ import { buttonVariants } from "@/components/ui/button";
 export default function Home() {
   return (
     <div className='bg-neutral-950'>
+
       {/* navigation bar */}
       <div className="nav flex items-center justify-between flex-wrap p-6">
         <div className="log0 text-white font-semibold text-xl">
@@ -17,6 +18,7 @@ export default function Home() {
             Sign-in
           </Link>
         </div>
+        
       </div>
       {/* hero section */}
       <div className="hero py-20 px-4 lg:px-0 text-center">
@@ -28,7 +30,7 @@ export default function Home() {
 
                 
               </h1> */}
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
+              <h1 className="text-5xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
           Get rewards by sharing your favorite youtube videos
               </h1>
               
@@ -37,7 +39,7 @@ export default function Home() {
             {/* <p>Are you a fan of YouTube creators? Do you love engaging with their content and supporting their work? Sharify is here to revolutionize the way you interact with your favorite creators.</p> */}
           </div>
           <div className="mb-8">
-            <Link className={buttonVariants({ variant: "secondary" })} href={"/sign-in"}>
+            <Link className={buttonVariants({ variant: "secondary" })} href={"/sign-up"}>
               Get started
             </Link>
           </div>

@@ -1,12 +1,8 @@
 "use client";
-import { useUser } from "@clerk/nextjs";
  
 export default function page() {
-  const { isLoaded, isSignedIn, user } = useUser();
  
-  if (!isLoaded || !isSignedIn) {
-    return null;
-  }
+  
  
-  return <div>Hello, {user.firstName} welcome to Clerk</div>;
+  return <div>Hello, welcome to Clerk</div>;
 }
